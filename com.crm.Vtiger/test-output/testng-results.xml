@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactTest.contactWithMandatoryField()[pri:0, instance:com.crm.TestCases.CreateContactTest@27808f31]" name="contactWithMandatoryField" class="com.crm.TestCases.CreateContactTest"/>
+        <method signature="CreateContactTest.contactWithOrg()[pri:0, instance:com.crm.TestCases.CreateContactTest@27808f31]" name="contactWithOrg" class="com.crm.TestCases.CreateContactTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateCampaignTest.createCamp()[pri:0, instance:com.crm.TestCases.CreateCampaignTest@37d31475]" name="createCamp" class="com.crm.TestCases.CreateCampaignTest"/>
+        <method signature="CreateLeadsTest.leadsDeleted()[pri:0, instance:com.crm.TestCases.CreateLeadsTest@307f6b8c]" name="leadsDeleted" class="com.crm.TestCases.CreateLeadsTest"/>
+        <method signature="CreateLeadsTest.leadsWithMandatoryFields()[pri:0, instance:com.crm.TestCases.CreateLeadsTest@307f6b8c]" name="leadsWithMandatoryFields" class="com.crm.TestCases.CreateLeadsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="140" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+      <class name="com.crm.TestCases.CreateCampaignTest">
+        <test-method status="PASS" signature="createCamp()[pri:0, instance:com.crm.TestCases.CreateCampaignTest@37d31475]" name="createCamp" duration-ms="4" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCamp -->
+      </class> <!-- com.crm.TestCases.CreateCampaignTest -->
+      <class name="com.crm.TestCases.CreateContactTest">
+        <test-method status="PASS" signature="contactWithMandatoryField()[pri:0, instance:com.crm.TestCases.CreateContactTest@27808f31]" name="contactWithMandatoryField" duration-ms="2" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactWithMandatoryField -->
+        <test-method status="PASS" signature="contactWithOrg()[pri:0, instance:com.crm.TestCases.CreateContactTest@27808f31]" name="contactWithOrg" duration-ms="4" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactWithOrg -->
+      </class> <!-- com.crm.TestCases.CreateContactTest -->
+      <class name="com.crm.TestCases.CreateLeadsTest">
+        <test-method status="PASS" signature="leadsDeleted()[pri:0, instance:com.crm.TestCases.CreateLeadsTest@307f6b8c]" name="leadsDeleted" duration-ms="16" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsDeleted -->
+        <test-method status="PASS" signature="leadsWithMandatoryFields()[pri:0, instance:com.crm.TestCases.CreateLeadsTest@307f6b8c]" name="leadsWithMandatoryFields" duration-ms="5" started-at="2022-03-24T11:04:15 IST" finished-at="2022-03-24T11:04:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsWithMandatoryFields -->
+      </class> <!-- com.crm.TestCases.CreateLeadsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

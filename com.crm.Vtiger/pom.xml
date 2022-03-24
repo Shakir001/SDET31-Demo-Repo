@@ -48,7 +48,7 @@
 <profiles>
 
 <profile>
-<id>SmokeTest</id>
+<id>BatchExecution</id>
  <build>
     <pluginManagement>
       <plugins>
@@ -58,7 +58,7 @@
           <version>3.0.0-M5</version>
 			<configuration>
 				<suiteXmlFiles>
-					<suiteXmlFile>Smoketestng.xml</suiteXmlFile>
+					<suiteXmlFile>BatchExecution_testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
         </plugin>
@@ -68,7 +68,7 @@
 </profile>
 
 <profile>
-<id>RegressionTest</id>
+<id>ParallelExecution</id>
  <build>
     <pluginManagement>
       <plugins>
@@ -78,7 +78,7 @@
           <version>3.0.0-M5</version>
 			<configuration>
 				<suiteXmlFiles>
-					<suiteXmlFile>Regressiontestng.xml</suiteXmlFile>
+					<suiteXmlFile>ParallelExecution_testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
         </plugin>
