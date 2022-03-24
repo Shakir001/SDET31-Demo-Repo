@@ -11,5 +11,8 @@ public class CreateContactTest {
 	@Test(groups = "regressionTest")
 	public void contactWithOrg() {
 		System.out.println("contact with organization created");
+		
+		
+		System.out.println("Enamul contact");
 	}
 }
