@@ -7,5 +7,15 @@ public class CreateCampaignTest {
 	@Test(groups="smokeTest")
 	public void createCamp() {
 		System.out.println("campaign created");
+		System.out.println("user-2 campaign created");
+		System.out.println("user-2");
+		
+		
+		
 	}
 }
+
+
+
+
+
